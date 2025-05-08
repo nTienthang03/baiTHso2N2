@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang chính</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }
+        
+        .menu {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .menu li {
+            margin: 20px 0;
+        }
+        
+        .menu a {
+            display: block;
+            padding: 15px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+        }
+        
+        .menu a:hover {
+            background: #2980b9;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        }
+        
+        .footer {
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Web App Xem Giá Vàng, Đô La và Thời Tiết</h1>
+        <ul class="menu">
+            <li><a href="/gold">Giá vàng</a></li>
+            <li><a href="/usd">Tỷ giá đô la</a></li>
+            <li><a href="/weather">Thời tiết</a></li>
+        </ul>
+        <div class="footer">
+            Ứng dụng cập nhật dữ liệu theo thời gian thực
+        </div>
+    </div>
+</body>
+</html>

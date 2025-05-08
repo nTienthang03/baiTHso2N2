@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tỷ giá USD</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        h1 {
+            color: #27ae60;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        
+        .rate {
+            font-size: 2.5em;
+            color: #27ae60;
+            font-weight: bold;
+            margin: 30px 0;
+            padding: 20px;
+            background: #e8f5e9;
+            border-radius: 5px;
+            border-left: 5px solid #27ae60;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .back-btn:hover {
+            background: #2980b9;
+        }
+        
+        .info {
+            margin-top: 20px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tỷ giá USD hiện tại:</h1>
+        <div class="rate">{{ usd_rate }}</div>
+        <div class="info">Tỷ giá được cập nhật theo thị trường quốc tế</div>
+        <a href="/" class="back-btn">Quay lại trang chủ</a>
+    </div>
+</body>
+</html>
